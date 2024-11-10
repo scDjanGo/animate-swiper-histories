@@ -11,11 +11,12 @@ import { AnimatePresence, motion } from 'framer-motion';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// import 'swiper/swiper-bundle.min.css';
 
-
+// @ts-expect-error
 import 'swiper/scss';
+// @ts-expect-error
 import 'swiper/scss/navigation';
+// @ts-expect-error
 import 'swiper/scss/pagination';
 
 
